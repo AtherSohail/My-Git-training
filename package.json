@@ -1,0 +1,24 @@
+{
+  "name": "git-files",
+  "version": "1.0.0",
+  "description": "node project",
+  "main": "firsthtmlusinggit.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtherSohail/My-Git-training.git"
+  },
+  "author": "sohail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtherSohail/My-Git-training/issues"
+  },
+  "homepage": "https://github.com/AtherSohail/My-Git-training#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
